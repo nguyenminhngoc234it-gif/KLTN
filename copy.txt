@@ -1,0 +1,6 @@
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
+if not GEMINI_API_KEY:
+    raise RuntimeError("Missing GEMINI_API_KEY environment variable")
+
+HISTORY_FILE = "E:/UNETI_FINAL/HK2-FINAL/KLTN/KLTH_AI_Marketing/DOAN/web/AI/history.json"
